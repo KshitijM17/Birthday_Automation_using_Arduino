@@ -70,7 +70,7 @@ void loop() {
 }
 
 void displayText() {
-  String message = "Happy Birthday Aashay";
+  String message = "Happy Birthday {name}"; //Input custom name
   int messageLength = message.length();
   
   for (int i = 0; i < messageLength + 16; i++) { // Scroll text
